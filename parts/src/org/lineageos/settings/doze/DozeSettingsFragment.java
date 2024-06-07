@@ -44,16 +44,9 @@ public class DozeSettingsFragment extends PreferenceFragment implements
 
     private SwitchPreferenceCompat mAlwaysOnDisplayPreference;
 
-<<<<<<< HEAD
-    private SwitchPreference mPickUpPreference;
-    private SwitchPreference mRaiseToWakePreference;
-    private SwitchPreference mHandwavePreference;
-    private SwitchPreference mPocketPreference;
-=======
     private SwitchPreferenceCompat mPickUpPreference;
     private SwitchPreferenceCompat mHandwavePreference;
     private SwitchPreferenceCompat mPocketPreference;
->>>>>>> 1df69ba (sdm845-common: parts: Convert to SwitchPreferenceCompat)
 
     private Handler mHandler = new Handler();
 
